@@ -1,0 +1,90 @@
+body {
+  padding:0;
+  margin:0;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header ul {
+  font-size: 18px;
+  margin: 16px;
+}
+
+.header a {
+  color: #C1292E;
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+}
+
+.header-logo {
+  width: 10%;
+  box-sizing: border-box;
+}
+
+.first-section {
+  display:flex;
+  background-color: #d43024;
+  padding:16px;
+  align-items: center;
+}
+
+.description {
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+
+.description h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.image-first {
+  width: 550px;
+  height: auto;
+  margin-left: auto;
+  border-radius:5%;
+}
+
+.button {
+  background-color: #FEFEE3;
+  border: none;
+  color: black;
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+  font-family: Verdana, sans-serif;
+  opacity: 0.5;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.learn-about {
+  text-align: center;
+  font-size: 32px;
+  color: #b3271d;
+  margin-top:2em;
+}
+
+.info-jugadores {
+  display: flex;
+  gap: 8px;
+}
