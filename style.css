@@ -38,6 +38,7 @@ ul {
   background-color: #d43024;
   padding:16px;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .description {
@@ -80,11 +81,67 @@ ul {
 .learn-about {
   text-align: center;
   font-size: 32px;
+  font-weight: 800;
   color: #b3271d;
   margin-top:2em;
 }
 
 .info-jugadores {
   display: flex;
-  gap: 8px;
+  gap: 16px;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.info {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  padding: 8px;
+  background-color: #b01f17;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #787774;
+  margin-bottom: 120px;
+}
+
+.info .text-quote {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+
+.info .player {
+  align-self: flex-end;
+  color: white;
+  font-weight: 300;
+}
+
+.portrait {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.quote-section q{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  width: 500px;
+  margin-bottom: 16px;
+}
+
+.badbunny {
+  font-weight: 900;
+  margin-left: 500px;
 }
