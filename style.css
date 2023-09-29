@@ -1,3 +1,4 @@
+
 body {
   padding:0;
   margin:0;
@@ -144,4 +145,55 @@ ul {
 .badbunny {
   font-weight: 900;
   margin-left: 500px;
+}
+
+.signup-section {
+  display: flex;
+  justify-content:center;
+  margin: 32px 0px;
+}
+
+.signup-card {
+  padding: 20px;
+  background-color: #d1081c;
+  display: flex;
+  align-items: center;
+  width: 600px;
+  border-radius: 5%;
+  justify-content:space-between;
+}
+
+
+.text-signup {
+  color: white;
+}
+
+.text-big {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text-register {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.signup-card .button {
+  background-color: #FEFEE3;
+  border: none;
+  color: black;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 10px;
+  font-family: Verdana, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #d43024;
+  font-weight: bold;
+  color: white;
+  text-align: center;
 }
